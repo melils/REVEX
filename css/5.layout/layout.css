@@ -1,0 +1,24 @@
+.l-section-header{
+    background-color:   #343a40;;
+    
+}
+.l-section-banner{
+    max-width: 100vw;
+    background-repeat: no-repeat;
+    height: 495px;
+    background-position-y: -295px;
+    background-size: cover;
+    background-image: url("../../header/header-bg.png");
+}
+.l-section-partner, .l-section-work, .l-section-business{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.l-section-footer{
+    background-position-y: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../header/bg\ gray.png");
+}
+

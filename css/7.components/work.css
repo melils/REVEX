@@ -1,0 +1,53 @@
+.c-work__tittle{
+    font-size: 15px;
+    color: #dd2476;
+}
+.c-work__subtittle{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.c-work__image{
+    width: 100%;
+}
+
+/*porcentajes*/
+.bootstrap, .html, .php{
+    margin-bottom: 15px;
+    
+}
+.text{
+    justify-content: space-between;
+    display: flex;
+}
+.linea-gray{
+    background-color: rgb(202, 199, 199);
+    height: 6px;
+    width: 100%;
+    border-radius: 50px
+}
+.linea-orange{
+    background: linear-gradient(to right, #FD4E31, #DE2475);
+    height: 6px;
+    width: 75%;
+    border-radius: 50px
+}
+
+
+.linea-orange--ochenta{
+    width: 80%;
+}
+
+.linea-orange--cincuenta{
+    width: 55%;
+}
+
+.tittle, .number{
+    color: #555;
+    margin-bottom: 8px;
+    font-size: 13px;
+}
+.c-work__text{
+    color: #555;
+}
+

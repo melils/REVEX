@@ -1,0 +1,129 @@
+.c-business__tittle{
+    font-size: 15px;
+    color: #dd2476;
+}
+.c-business__subtittle{
+    font-weight: 700;
+    font-size: 31px;
+}
+.c-business__text{
+    color: #555;
+}
+/*sliders*/
+.slider{
+    margin-right: 100px;
+    justify-content: center;
+    display: flex;
+}
+.mayor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    color: white;
+    width: 50px;
+    height: 40px;
+    border-radius: 7px 7px;
+    background: linear-gradient(to right, #FD4E31, #DE2475);
+}
+.menor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 50px;
+    height: 40px;
+    border-radius: 7px 7px;
+    background: linear-gradient(to right, #FD4E31, #DE2475);
+}
+
+/*CARD*/
+.box-cards-business{
+    display: flex;
+    align-items: center;
+}
+
+.seo{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: .25rem;
+    border: 1px solid rgba(0,0,0,.125);
+ 
+    box-shadow: 0px 5px 12px -6px;
+}
+.c-cards-image--seo{
+    border-radius: 3px 3px 0px 0px;
+    margin-top: 0px;
+    max-width: 100%;;
+}
+.cards{
+    padding: 15px;
+}
+.title-business{
+    font-size: 15px;
+}
+.business-text{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;;
+}
+.cards-number{
+    font-weight: 500;
+    color: #dd2476;
+}
+.icon{
+    width: 20px;
+}
+
+
+@media (max-width:767.98px){
+    .box-cards-business {
+        display: flex; 
+        flex-direction: column;
+        
+    }
+    .box-seo--no-visible{
+        display: none;
+    }
+    .slider-business{
+        display: flex;
+    }
+    .menos {
+        width: 78px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991.98px){
+    .box-cards-business {
+        display: flex;
+    }
+    .seo {
+        height: 285px;
+        width: 10rem;
+        
+    }
+    .slider-business{
+        display: flex;
+        margin-right: 69px;
+    }
+    .title-business {
+        font-size: 21px;
+    }
+    .cards {
+        padding: 0px 15px 0px 15px;
+    }
+    .cards-number {
+        font-size: 10px;
+    }
+    .c-cards-text {
+        font-size: 10px;
+    }
+}
+@media(min-width:992px){
+    .slider-business {
+        display: flex;
+        margin-right: 56px;
+        
+    }
+}

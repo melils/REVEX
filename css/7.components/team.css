@@ -1,0 +1,25 @@
+.c-team__image{
+    width: 100%;
+}
+.c-team__tittle{
+    font-size: 15px;
+    color: #dd2476;
+}
+.c-team__subtittle{
+    font-weight: 700;
+    font-size: 30px;
+}
+.c-team__text{
+    color: #555;
+}
+
+/* INPUT*/
+.check{
+    background-color: gray;
+}
+
+.feature{
+    color: #555;
+    font-size: 14px;
+}
+

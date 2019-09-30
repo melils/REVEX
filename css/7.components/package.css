@@ -1,0 +1,117 @@
+.c-package__tittle{
+    text-align: center;
+    font-size: 15px;
+    color: #dd2476;
+}
+.c-package__subtittle{
+    text-align: center;
+    font-weight: 700;
+    font-size: 31px;
+}
+.c-package__text{
+    color: #555;
+    text-align: center;
+}
+
+/* card uno*/
+.cards--white{
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    height: 450px;
+}
+
+.c-cards-body--package{
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.c-cards-image--subway{
+    max-width: 25%;
+}
+.package--tittle{
+    color: orangered;
+    font-size: 25px;
+}
+.c-cards-text--subtittle{
+    line-height: 25px;
+    text-align: center;
+    font-size: 15px;
+}
+.c-cards-text--tittle{
+    color: #555;
+}
+.c-cards-text--one{
+    text-align: center;
+    font-size: 17px;
+    color: #555;
+}
+.c-cards-text--second{
+    text-align: center;
+    font-size: 17px;
+    color:#e09baa;
+}
+.linea-medio-white{
+    width: 100%;
+    border-top: 2px solid rgb(224, 217, 217);
+}
+
+/* card dos*/
+.linea-medio{
+    width: 100%;
+    border-top: 2px solid rgba(255, 255, 255, 0.30)
+}
+.cards--orange{
+    margin-bottom: 15px;
+    background: linear-gradient(to bottom, #FD4E31, #DE2475);
+}
+.c-cards-image--car{
+    max-width: 65%;
+}
+.package--tittle--uno {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+.subtittle--uno{
+    color: rgb(255, 255, 255);
+}
+.c-banner__boton--white{
+    color: black;
+    background: white;
+}
+
+/* card tres*/
+.c-cards-image--ship{
+    max-width: 65%;
+}
+
+@media (max-width:767.98px){
+    .c-cards--white {
+        height: 465px;
+        
+    }
+    .c-packages__cards{
+        display: flex;
+        align-items: center;
+    }
+    .c-cards{
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+@media (min-width:768px) and (max-width:991.98px){
+    .c-cards--white {
+        height: 544px;
+        width: 14rem;
+    }
+    
+}
+@media(min-width:992px){
+    .c-cards--white {
+        height: 465px;
+        
+    }
+    
+}

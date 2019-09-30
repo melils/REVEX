@@ -1,0 +1,26 @@
+.c-logo-header{
+    max-width: 100%;
+}
+.navbar-toggler{
+    border-color: #ffffff;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+@media(min-width:1200px){
+    .nav-item:hover::after{
+       content: "";
+       border: 1px solid red;
+       width: 25px; 
+        position: absolute;
+        margin-left: 8px;
+    }
+}
